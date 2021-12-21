@@ -1,0 +1,112 @@
+/*, *:before, *:after {
+  box-sizing: border-box;
+}*/
+#header-img {
+  float: left;
+  width: 33%;
+}
+#nav-bar {
+  position: relative;
+  float: right;
+  top: 40%;
+}
+#nav-bar a {
+  margin-right: 3em;
+  text-decoration: none;
+  color: #ff000d;
+  font-family: 'Roboto', sans-serif;
+}
+#nav-bar a:hover {
+  color: #ffffff;
+}
+#header {
+  height: 6em;
+  background-color: #f2c13a;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.corner {
+  display: block;
+  margin-left: 1%;
+  margin-right: 0;
+  width: 50%;
+}
+/* #video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+} */
+.section {
+  margin: 2em;
+}
+#how-it-works {
+  display: table;
+  width: 90%;
+  height: 15em;
+  text-align: center;
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+#description {
+  margin: auto;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: 'Playball', cursive;
+  font-size: 2em;
+}
+.section {
+  position: relative;
+  top: 5em;
+}
+#email {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 40%;
+  border: 0;
+  border-bottom: 1px solid #f00;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#submit {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 50px;
+  border: 2px solid #0000ff;
+}
+#pricing {
+  text-align: center;
+  background-color: blue;
+}
+#prices {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 1200px) {
+  #video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  }
+  #image {
+    width: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #image {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  }
+  #video {
+    width: 0;
+  }
+}
